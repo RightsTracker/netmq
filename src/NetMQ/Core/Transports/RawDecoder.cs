@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using Debug = NetMQ.Utils.LoggingDebug;
 
 namespace NetMQ.Core.Transports
 {

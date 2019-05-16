@@ -22,7 +22,7 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
 using System.Linq;
 using System.Net.Sockets;
 using AsyncIO;

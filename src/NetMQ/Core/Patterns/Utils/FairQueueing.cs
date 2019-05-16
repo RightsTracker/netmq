@@ -21,7 +21,8 @@
 */
 
 using System.Collections.Generic;
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
+
 
 namespace NetMQ.Core.Patterns.Utils
 {
@@ -128,7 +129,7 @@ namespace NetMQ.Core.Patterns.Utils
                 // If we've already received the first part of the message
                 // we should get the remaining parts without blocking.
                 Debug.Assert(!m_more);
-
+                Debug.Assert(false);
                 m_active--;
                 m_pipes.Swap(m_current, m_active);
                 if (m_current == m_active)

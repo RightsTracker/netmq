@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
 using System.Threading;
 using NetMQ.Core.Utils;
 

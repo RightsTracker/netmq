@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using Debug = NetMQ.Utils.LoggingDebug;
 using System.Net.Sockets;
 
 namespace NetMQ.Core

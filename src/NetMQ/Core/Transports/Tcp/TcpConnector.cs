@@ -20,7 +20,7 @@
 */
 
 using System;
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
 using System.Net.Sockets;
 using AsyncIO;
 using JetBrains.Annotations;

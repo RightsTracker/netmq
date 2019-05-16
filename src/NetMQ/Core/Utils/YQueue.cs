@@ -20,7 +20,7 @@
 */
 
 using System;
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
 using JetBrains.Annotations;
 
 namespace NetMQ.Core.Utils

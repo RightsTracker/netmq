@@ -22,7 +22,7 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using Debug = NetMQ.Utils.LoggingDebug;
 using System.Net.Sockets;
 using JetBrains.Annotations;
 using NetMQ.Core.Patterns;
