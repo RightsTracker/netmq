@@ -127,4 +127,8 @@
     <PackageReference Include="SourceLink.Create.CommandLine" Version="2.7.4" PrivateAssets="All" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="rem Ensure Jenkins has a C:\RT_Libs\ folder&#xD;&#xA;copy $(TargetDir)$(TargetName).dll C:\RT_Libs\&#xD;&#xA;copy $(TargetDir)$(TargetName).pdb C:\RT_Libs\&#xD;&#xA;" />
+  </Target>
+
 </Project>
