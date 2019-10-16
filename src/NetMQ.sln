@@ -59,6 +59,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddDLLsToExternalSolutions", "AddDLLsToExternalSolutions", "{5A97AC02-A36C-40E9-B9FB-69E28BC2D688}"
 	ProjectSection(SolutionItems) = preProject
 		CopyDllsToAvailabilitiesEngine.bat = CopyDllsToAvailabilitiesEngine.bat
+		CopyDllsToRTLibs.bat = CopyDllsToRTLibs.bat
 	EndProjectSection
 EndProject
 Global
