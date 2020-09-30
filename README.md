@@ -1,3 +1,5 @@
+THIS FORK IS NO LONGER NEEDED. THE BUG WITH ASSERT HAS BEEN ADDRESSED. USE THE Release BUILD. USE THE ORIGIN VERSION /zeromq/netmq
+
 <img src="https://cdn.rawgit.com/zeromq/netmq/master/img/NetMQLogo.svg" width="350" />
 
 [![NetMQ AppVeyor Build](https://ci.appveyor.com/api/projects/status/as5fiw8a3suw53iu/branch/master?svg=true)](https://ci.appveyor.com/project/somdoron/netmq-2bhss) [![NetMQ NuGet version](https://img.shields.io/nuget/v/NetMQ.svg)](https://www.nuget.org/packages/NetMQ/) [![NetMQ NuGet prerelease version](https://img.shields.io/nuget/vpre/NetMQ.svg)](https://www.nuget.org/packages/NetMQ/)
